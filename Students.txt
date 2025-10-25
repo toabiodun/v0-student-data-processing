@@ -1,0 +1,11 @@
+Name        Surname    HW1   HW2   HW3   HW4   HW5   Exam
+John        Doe         8     9    10     6    10      9
+Jane        Smith       7    10     8     5     4      6
+Michael     Johnson     9     8     9    10     9      8
+Emily       Williams    6     7     8     7     9      7
+David       Brown      10     9     8     9    10     10
+Sarah       Jones       5     6     7     8     6      5
+Robert      Garcia      8     8     9     7     8      9
+Lisa        Martinez    9    10    10     9    10      9
+James       Rodriguez   7     6     5     8     7      6
+Maria       Hernandez   8     9     7     8     9      8
