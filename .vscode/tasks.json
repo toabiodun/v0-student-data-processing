@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Student Grading System",
+      "type": "shell",
+      "command": "g++",
+      "args": ["-std=c++11", "-Wall", "-g", "main.cpp", "Person.cpp", "-o", "student_grading"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compiles main.cpp and Person.cpp into student_grading executable"
+    },
+    {
+      "label": "Build and Run",
+      "type": "shell",
+      "command": "g++ -std=c++11 -Wall -g main.cpp Person.cpp -o student_grading && ./student_grading",
+      "windows": {
+        "command": "g++ -std=c++11 -Wall -g main.cpp Person.cpp -o student_grading.exe && student_grading.exe"
+      },
+      "group": "test",
+      "problemMatcher": ["$gcc"],
+      "detail": "Compiles and immediately runs the program"
+    }
+  ]
+}

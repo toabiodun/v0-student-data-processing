@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Student Grading System",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/student_grading",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Build Student Grading System",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "windows": {
+        "program": "${workspaceFolder}/student_grading.exe",
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      }
+    }
+  ]
+}

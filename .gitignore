@@ -8,7 +8,6 @@
 student_grading
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
