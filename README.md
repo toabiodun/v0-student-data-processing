@@ -69,7 +69,7 @@ The program expects:
 
 ## Version History
 
-- **v0.1**: Initial release with core functionality
+  - Initial release with core functionality
   - Person class implementation with rule of three
   - File reading and manual input
   - Average and median calculations
