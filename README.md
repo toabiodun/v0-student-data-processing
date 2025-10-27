@@ -47,10 +47,25 @@ Follow the on-screen prompts to:
 Input files should follow this format:
 
 \`\`\`
-Name        Surname    HW1   HW2   HW3   HW4   HW5   Exam
-John        Doe         8     9    10     6    10      9
-Jane        Smith       7    10     8     5     4      6
+Vardas      Pavarde    ND1   ND2   ND3   ...  ND15  Egz.
+Vardas1     Pavarde1     8     5     8   ...     5     3
+Vardas2     Pavarde2     6     6     5   ...     5     7
 \`\`\`
+
+
+The program expects:
+- Header row with column names (automatically skipped)
+- Student name and surname
+- 15 homework scores (ND1-ND15)
+- 1 exam score (Egz.)
+- All values space-separated
+
+## Available Data Files
+
+- **students10000.txt** - 10,000 student records (included)
+- **students100000.txt** - 100,000 student records (add if needed)
+- **students1000000.txt** - 1,000,000 student records (add if needed)
+
 
 ## Version History
 

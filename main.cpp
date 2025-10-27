@@ -146,11 +146,10 @@ int main() {
     } else if (choice == 2) {
         // File input
         cout << "\nAvailable files:" << endl;
-        cout << "1. Students.txt" << endl;
-        cout << "2. students10000.txt" << endl;
-        cout << "3. students100000.txt" << endl;
-        cout << "4. students1000000.txt" << endl;
-        cout << "5. Custom filename" << endl;
+        cout << "1. students10000.txt" << endl;
+        cout << "2. students100000.txt" << endl;
+        cout << "3. students1000000.txt" << endl;
+        cout << "4. Custom filename" << endl;
         cout << "Choice: ";
         
         int fileChoice;
@@ -158,16 +157,15 @@ int main() {
         
         string filename;
         switch (fileChoice) {
-            case 1: filename = "Students.txt"; break;
-            case 2: filename = "students10000.txt"; break;
-            case 3: filename = "students100000.txt"; break;
-            case 4: filename = "students1000000.txt"; break;
-            case 5:
+            case 1: filename = "students10000.txt"; break;
+            case 2: filename = "students100000.txt"; break;
+            case 3: filename = "students1000000.txt"; break;
+            case 4:
                 cout << "Enter filename: ";
                 cin >> filename;
                 break;
             default:
-                filename = "Students.txt";
+                filename = "students10000.txt";
         }
         
         students = readFromFile(filename);
